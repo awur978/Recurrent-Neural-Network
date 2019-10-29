@@ -79,7 +79,7 @@ get_custom_objects().update({'custom_activation': Activation(tf_logsig)})
 
 
 
-
+#your data path here
 data_path = "/Users/adedamola/Documents/PhD/tensorflowtut/ELU_Paper/LSTM_Examples/simple-examples/data"
 
 parser = argparse.ArgumentParser()
