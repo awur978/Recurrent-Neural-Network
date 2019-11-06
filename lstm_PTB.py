@@ -40,8 +40,6 @@ tf.set_random_seed(1234)
 sess = tf.Session(graph=tf.get_default_graph(), config=session_conf)
 K.set_session(sess)
 
-
-
 #Define activation functions
 def tf_sqnlsig(x):
     u=tf.clip_by_value(x,-2,2)
